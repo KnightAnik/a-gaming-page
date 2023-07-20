@@ -11,6 +11,14 @@
     font-weight: 700;
 }
 
+.btn-primary {
+    color: #FFF;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: none;
+}
+
 /* nav bar */
 header {
     background: #FFF;
@@ -29,7 +37,7 @@ header {
     margin: 0px 130px 0px 240px;
 }
 
-.nav-title{
+.nav-title {
     padding-left: 15px;
 }
 
@@ -70,46 +78,129 @@ nav li a {
     font-size: 20px;
 }
 
+/* BANNER sec */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px 0px 240px;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
 
+.banner-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
+.goat {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    color: #8758F1;
+    text-transform: uppercase;
+}
 
+.light-blue-btn {
+    background-color: #4EC5F7;
+    margin-left: 30px;
+}
 
 
 
 
 @media screen and (max-width:425px) {
+
     /* for nav */
     .nav-container {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin: 0px 10px;
+        margin: 0px 0px;
     }
+
     nav ul {
         flex-direction: column;
     }
+
     nav li {
         margin-bottom: 30px;
     }
+
     .follow-btn {
         border-radius: 8px;
         background: rgba(11, 2, 35, 0.10);
         padding: 12px 18px 12px 20px;
     }
+
     .youtube-color {
         color: red;
         padding-left: 8px;
         font-size: 20px;
     }
-    
+
     .tiktok-btn {
         padding-left: 8px;
         font-size: 20px;
     }
+
+    /* for banner */
+    .banner {
+        flex-direction: column;
+        /* align-items: center; */
+        /* padding: 0px 140px 0px 240px; */
+        background-image: url(../images/Group\ 14.png);
+        background-repeat: no-repeat;
+    }
     
+    .banner-title {
+        color: #0B0223;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .goat {
+        text-align: center;
+        font-size: 95px;
+        font-weight: 800;
+        color: #8758F1;
+        text-transform: uppercase;
+    }
+    
+    .light-blue-btn {
+        background-color: #4EC5F7;
+        margin-left: 30px;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:425px) and (max-width: 1310px) {
+
     /* for nav */
     .nav-container {
         flex-direction: column;
@@ -117,23 +208,27 @@ nav li a {
         justify-content: space-between;
         margin: 0px 10px;
     }
+
     nav ul {
         flex-direction: column;
     }
+
     nav li {
         margin-bottom: 30px;
     }
+
     .follow-btn {
         border-radius: 8px;
         background: rgba(11, 2, 35, 0.10);
         padding: 12px 18px 12px 20px;
     }
+
     .youtube-color {
         color: red;
         padding-left: 8px;
         font-size: 20px;
     }
-    
+
     .tiktok-btn {
         padding-left: 8px;
         font-size: 20px;
