@@ -19,6 +19,13 @@
     border: none;
 }
 
+.general-text {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* nav bar */
 header {
     background: #FFF;
@@ -109,8 +116,19 @@ nav li a {
     margin-left: 30px;
 }
 
+/* funny videos */
 
+.funny-videos-container {
+    display: flex;
+    gap: 20px;
+    padding: 50px 240px;
+}
 
+.funnywtn {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 @media screen and (max-width:425px) {
 
@@ -155,7 +173,7 @@ nav li a {
         background-image: url(../images/Group\ 14.png);
         background-repeat: no-repeat;
     }
-    
+
     .banner-title {
         color: #0B0223;
         text-align: center;
@@ -163,7 +181,7 @@ nav li a {
         font-weight: 600;
         text-transform: uppercase;
     }
-    
+
     .goat {
         text-align: center;
         font-size: 95px;
@@ -171,7 +189,7 @@ nav li a {
         color: #8758F1;
         text-transform: uppercase;
     }
-    
+
     .light-blue-btn {
         background-color: #4EC5F7;
         margin-left: 30px;
