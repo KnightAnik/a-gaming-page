@@ -178,7 +178,7 @@ nav li a {
     padding: 0px 300px 110px 300px;
 }
 
-button :hover{
+button :hover {
     cursor: pointer;
     border: 2px solid #FF42A5;
     border-radius: 50px;
@@ -186,7 +186,7 @@ button :hover{
 }
 
 
-.btn-design-gaming :hover{
+.btn-design-gaming :hover {
     color: #FF42A5;
     font-weight: 700;
 }
@@ -384,6 +384,81 @@ button :hover{
         padding: 0px 20px 50px 20px;
     }
 
+    /*footer*/
+
+    .footer {
+        width: 425px;
+        height: 800px;
+        background: #0B0223;
+    }
+
+    .footer-title {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 90px;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+
+    .footer-wtn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .footer-title2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .footer-btn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 80px;
+    }
+
+    .footer-icon-twit {
+        color: white;
+        font-size: 20px;
+    }
+
+    .footer-icon-fb {
+        color: white;
+        font-size: 20px;
+    }
+
+    .footer-icon-tube {
+        color: red;
+        font-size: 20px;
+    }
+
+    .footer-icon-insta {
+        color: white;
+        font-size: 20px;
+    }
+
+    .footer-icon-in {
+        color: skyblue;
+        font-size: 20px;
+    }
+
+    .footer-icon-mac {
+        color: white;
+        font-size: 20px;
+    }
 }
 
 
@@ -394,7 +469,7 @@ button :hover{
 
 
 
-
+/* for tablet&laptop */
 
 
 @media screen and (min-width:426px) and (max-width: 1310px) {
@@ -470,5 +545,97 @@ button :hover{
 
     .small-pic img {
         width: 50%
+    }
+
+
+    /* gaming btns */
+
+    .btn-align-gaming1 {
+        flex-direction: wrap;
+        padding: 120px 20px 10px 20px;
+    }
+
+    .btn-align-gaming2 {
+        flex-direction: wrap;
+        padding: 0px 20px 50px 20px;
+    }
+
+
+
+
+    /*footer*/
+
+    .footer {
+        width: 768px;
+        height: 800px;
+        background: #0B0223;
+    }
+
+    .footer-title {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 90px;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+
+    .footer-wtn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 150px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .footer-title2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+    }
+
+    .footer-btn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 200px;
+    }
+
+    .footer-icon-twit {
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer-icon-fb {
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer-icon-tube {
+        color: red;
+        font-size: 30px;
+    }
+
+    .footer-icon-insta {
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer-icon-in {
+        color: skyblue;
+        font-size: 30px;
+    }
+
+    .footer-icon-mac {
+        color: white;
+        font-size: 30px;
     }
 }
